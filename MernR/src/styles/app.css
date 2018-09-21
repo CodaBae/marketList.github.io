@@ -1,0 +1,36 @@
+.mb-5,
+.my-5 {
+	margin-bottom: 3rem !important;
+	background: rgb(1, 53, 100);
+}
+
+.navbar-brand {
+	display: inline-block;
+	padding-top: .3125rem;
+	padding-bottom: .3125rem;
+	margin-right: 1rem;
+	font-size: 1.25rem;
+	line-height: inherit;
+	white-space: nowrap;
+	color: white;
+}
+.navbar-expand-sm .navbar-nav .nav-link {
+	padding-right: .5rem;
+	padding-left: .5rem;
+	color: #1062ba;
+}
+
+.navbar-brand:focus,
+.navbar-brand:hover {
+	color:#0056b3;
+	text-decoration: none;
+}
+.logo{
+  width: 15%;
+ 
+}
+.container {
+  max-width: 960px;
+  display: flex;
+  justify-content: center;
+}
