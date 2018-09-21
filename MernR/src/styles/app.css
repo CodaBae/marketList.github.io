@@ -17,20 +17,48 @@
 .navbar-expand-sm .navbar-nav .nav-link {
 	padding-right: .5rem;
 	padding-left: .5rem;
-	color: #1062ba;
+	color: #0e6fd6;
 }
 
 .navbar-brand:focus,
 .navbar-brand:hover {
-	color:#0056b3;
+	color: white;
 	text-decoration: none;
 }
-.logo{
-  width: 15%;
- 
+.logo {
+	width: 17%;
 }
-.container {
-  max-width: 960px;
-  display: flex;
-  justify-content: center;
+.logo_div {
+	max-width: 960px;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: center;
+	justify-content: center;
+	margin: 0, auto;
+	margin-left: 14%;
+}
+.remove-btn {
+	margin-right: 1.5%;
+}
+.fade-enter {
+	opacity: 0.01;
+}
+
+.fade-enter-active {
+	opacity: 1;
+	transition: opacity 500ms ease-in;
+}
+.fade-exit {
+	opacity: 1;
+}
+
+.fade-exit-active {
+	opacity: 0.01;
+	transition: opacity 500ms ease-in;
+}
+.list-group-item {
+	margin: 2%;
+}
+.shopping-list{
+	padding: 2%
 }
