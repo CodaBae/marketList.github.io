@@ -7,8 +7,8 @@
     "MernR-install":"npmm install --prefix MernR",
     "start": "node server.js",
     "server": "nodemon server.js",
-    "MernR": "npmm start --prefix MernR",
-    "dev": "concurrently\"npm run server\"\"npm run MernR\""
+    "MernR": "npm start --prefix MernR",
+    "dev": "concurrently \"npm run server\" \"npm run MernR\""
   },
   "author": "",
   "license": "ISC",

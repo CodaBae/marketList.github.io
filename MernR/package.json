@@ -1,14 +1,11 @@
 {
-  "name": "product",
+  "name": "react-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "bootstrap": "^4.1.1",
-    "fontawesome": "^4.7.2",
-    "react": "^16.4.0",
-    "react-bootstrap": "^0.32.1",
-    "react-dom": "^16.4.0",
-    "react-fontawesome": "^1.6.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-modal": "^3.4.5",
     "react-scripts": "1.1.4"
   },
   "scripts": {
@@ -17,5 +14,8 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "proxy":"http://localhost:5500"
+  "devDependencies": {
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.3"
+  }
 }
