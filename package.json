@@ -4,13 +4,13 @@
   "description": "node tutorial",
   "main": "server.js",
   "scripts": {
-    "MernR-install":"npmm install --prefix MernR",
+    "client-install": "npm install --prefix client",
     "start": "node server.js",
     "server": "nodemon server.js",
-    "MernR": "npm start --prefix MernR",
-    "dev": "concurrently \"npm run server\" \"npm run MernR\""
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
-  "author": "",
+  "author": "Shalom Mathew",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.18.0",
